@@ -157,6 +157,7 @@ npm run dev
 🎉 Congratulations! Now we can finally run the website:
 
 ```bash
+cd ..
 npm run dev
 ```
 
