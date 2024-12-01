@@ -86,8 +86,19 @@ npx prisma db push
 
 1. In terminal, run the following command. You can replace "zephyrlin.me" with another name.
 
+If you are first deploy on local, you should:
 ```bash
 npm create sanity@latest -- --template clean --create-project "zephyrlin.me" --dataset production  --output-path sanity
+```
+
+If you want to deploy on the cloud, the previous steps is same. When you done pervious steps, you should get your API token: Sanity Website -> enter in your project -> API ->tokens.
+
+Go to [sanity website](https://www.sanity.io/manage) to get project id.
+   ![sanity2](./public/images/sanity2.png)
+
+After get your API toekn and project-id, you should run this command in /sanity on cloud:
+```bash
+SANITY_AUTH_TOKEN=<Your token> sanity init -y --template clean --project <Project-id> --dataset production  --output-path sanity
 ```
 
 2. Then you will probably be asked to sign in. After you sign in, follow the instructions:
@@ -150,9 +161,11 @@ cd sanity
 npm run dev
 ```
 
+
 6. Navigate to [localhost:3333](http://localhost:3333), now you can add projects to the website.
 
-### Run the server
+
+### Run the server in dev
 
 🎉 Congratulations! Now we can finally run the website:
 
@@ -161,6 +174,17 @@ npm run dev
 ```
 
 Navigate to [localhost:3000](http://localhost:3000) to see the website in action.
+
+### Run the server
+
+In your root:
+```bash
+npm run build
+```
+then:
+```bash
+npm run start
+```
 
 ## Acknowledgements
 
