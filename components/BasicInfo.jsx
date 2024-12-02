@@ -4,48 +4,51 @@ export default function BasisInfo() {
       <h2 className="mb-6 ml-2 text-xl text-green-200 opacity-60">About Me</h2>
       <ul className="flex flex-col gap-5 pl-6 text-sm list-disc opacity-80">
         <li>
-          👋 You can call me <span className="font-bold">Zephyr</span>,{" "}
-          <span className="font-bold">Zhihao</span> or{" "}
-          <span className="font-bold">智昊</span>.
+          👋 I am a master&apos;s student of <span className="font-bold ">
+          <a
+            className="font-bold"
+            href="https://www.bjut.edu.cn/"
+            target="_blank"
+          >
+            BJUT
+          </a>
+            </span>.
         </li>
 
         <li>
-          🌎 Current Location:{" "}
-          <a
-            className="font-bold"
-            href="https://en.wikipedia.org/wiki/Amherst,_Massachusetts"
-            target="_blank"
-          >
-            Amherst, MA, US
-          </a>
-          .
+          🌎 I am interested in <span className="font-bold">AI Infra, Quantization</span>.
         </li>
+
         <li>
           ✈️ Lived in{" "}
           <a
             className="font-bold"
-            href="https://en.wikipedia.org/wiki/Minneapolis"
+            href="https://zh.wikipedia.org/wiki/%E5%8C%97%E4%BA%AC%E5%B8%82"
             target="_blank"
           >
-            Minneapolis
+            Beijing
           </a>
-          ,{" "}
+          .{" "}
+        </li>
+
+        <li>
+          💪 I used to be an intern at{" "}
           <a
             className="font-bold"
-            href="https://en.wikipedia.org/wiki/Wuhan"
+            href="https://home.baidu.com/"
             target="_blank"
           >
-            Wuhan
+           Baidu 
           </a>
-          ,{" "}
+          {" "}and
           <a
             className="font-bold"
-            href="https://en.wikipedia.org/wiki/Changsha"
+            href="https://www.oppo.com/cn/smartphones/"
             target="_blank"
           >
-            Changsha
-          </a>{" "}
-          in the past.
+          {" "}OPPO
+          </a>
+          , and both the internship content was about model Quantization.
         </li>
       </ul>
     </div>

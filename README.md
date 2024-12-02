@@ -98,6 +98,9 @@ Go to [sanity website](https://www.sanity.io/manage) to get project id.
 
 After get your API toekn and project-id, you should run this command in /sanity on cloud:
 ```bash
+npm install -g @sanity/cli
+```
+```bash
 SANITY_AUTH_TOKEN=<Your token> sanity init -y --template clean --project <Project-id> --dataset production  --output-path sanity
 ```
 

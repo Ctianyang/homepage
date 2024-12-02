@@ -19,13 +19,13 @@ export default function Header() {
 
       <div className="flex items-center justify-end gap-2">
         <Link
-          href="https://github.com/eurooooo/zephyrlin.me"
+          href="https://github.com/Ctianyang"
           target="_blank"
           className="opacity-80 hover:opacity-100"
         >
           <GithubIcon />
         </Link>
-        <SignInAndOut pathname={pathname} />
+        {/* <SignInAndOut pathname={pathname} /> */}
       </div>
     </header>
   );

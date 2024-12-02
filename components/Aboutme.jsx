@@ -6,14 +6,11 @@ export default function Aboutme() {
       </h2>
       <ul className="flex flex-col gap-5 pl-6 list-disc opacity-80">
         <li>
-          👋 You can call me <span className="font-bold ">Zephyr</span>,{" "}
-          <span className="font-bold">Zhihao</span> or{" "}
-          <span className="font-bold">智昊</span>.
+          👋 I am currently a master&apos;s student at <span className="font-bold ">BJUT</span>.
         </li>
 
         <li>
-          🌎 Current Location:{" "}
-          <span className="font-bold">Amherst, MA, US</span>.
+          🌎 I am interested in <span className="font-bold">AI Infra, Quantization </span>.
         </li>
         <li>
           ✈️ Lived in{" "}
@@ -22,25 +19,9 @@ export default function Aboutme() {
             href="https://en.wikipedia.org/wiki/Minneapolis"
             target="_blank"
           >
-            Minneapolis
+            Beijing
           </a>
-          ,{" "}
-          <a
-            className="font-bold"
-            href="https://en.wikipedia.org/wiki/Wuhan"
-            target="_blank"
-          >
-            Wuhan
-          </a>
-          ,{" "}
-          <a
-            className="font-bold"
-            href="https://en.wikipedia.org/wiki/Changsha"
-            target="_blank"
-          >
-            Changsha
-          </a>{" "}
-          in the past.
+          .{" "}
         </li>
         <li>
           🎧 I&apos;m especially drawn to Chinese R&B. Favorites musicians are
