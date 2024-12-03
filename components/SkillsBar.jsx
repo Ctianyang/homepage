@@ -1,6 +1,6 @@
 import CSSIcon from "@/public/icons/CSSIcon";
 import CppIcon from "@/public/icons/CplusIcon";
-import PythonIcon from "@/public/icons/PythonIcon";
+import PythonIcon from "@/public/icons/Pythonicon";
 import ExpressIcon from "@/public/icons/ExpressIcon";
 import HtmlIcon from "@/public/icons/HtmlIcon";
 import JavaIcon from "@/public/icons/JavaIcon";
