@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import avatarImg from "@/public/images/avatar.png";
+import avatarImg from "@/public/images/photo.jpg";
 
 export default function Avatar({ page }) {
   return (
