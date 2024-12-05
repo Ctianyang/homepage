@@ -1,19 +1,12 @@
-import CSSIcon from "@/public/icons/CSSIcon";
 import CppIcon from "@/public/icons/CplusIcon";
-import PythonIcon from "@/public/icons/Pythonicon";
-import ExpressIcon from "@/public/icons/ExpressIcon";
-import HtmlIcon from "@/public/icons/HtmlIcon";
-import JavaIcon from "@/public/icons/JavaIcon";
-import JSIcon from "@/public/icons/JSIcon";
-import MongoIcon from "@/public/icons/MongoIcon";
-import MySQLIcon from "@/public/icons/MySQLIcon";
-import NextIcon from "@/public/icons/NextIcon";
-import NodeIcon from "@/public/icons/NodeIcon";
-import ReactIcon from "@/public/icons/ReactIcon";
-import SpringIcon from "@/public/icons/SpringIcon";
-import SupabaseIcon from "@/public/icons/SupabaseIcon";
-import TailwindIcon from "@/public/icons/TailwindIcon";
-import ViteIcon from "@/public/icons/ViteIcon";
+import PythonIcon from "@/public/icons/PythonIcon";
+import NvidiaIcon from "@/public/icons/NvidiaIcon";
+import PytorchIcon from "@/public/icons/PytorchIcon";
+import TensorflowIcon from "@/public/icons/TensorflowIcon";
+import OnnxIcon from "@/public/icons/OnnxIcon";
+import MTKIcon from "@/public/icons/MTKIcon";
+import QualcommIcon from "@/public/icons/QualcommIcon";
+import OpenVINOIcon from "@/public/icons/OpenVINOIcon";
 
 export default function SkillsBar() {
   return (
@@ -27,7 +20,7 @@ export default function SkillsBar() {
             <div className="flex gap-2 ">
               <PythonIcon className="skillsIcon" />
               <CppIcon className="skillsIcon" />
-              <JSIcon className="skillsIcon" />
+              <NvidiaIcon className="skillsIcon" />
             </div>
             <div className="text-sm font-semibold text-muted-foreground">
               Python + C++ + CUDA
@@ -39,15 +32,14 @@ export default function SkillsBar() {
       <div>
         <h3 className="mb-4 text-lg font-semibold">Framework</h3>
         <ul>
-          <li className="flex items-center gap-10 mb-2">
+          <li className="flex items-center gap-20 mb-2">
             <div className="flex gap-2 ">
-              <JavaIcon className="skillsIcon" />
-              <SpringIcon className="skillsIcon" />
-              <MySQLIcon className="skillsIcon" />
+              <PytorchIcon className="skillsIcon" />
+              <TensorflowIcon className="skillsIcon" />
             </div>
 
             <div className="text-sm font-semibold text-muted-foreground">
-              PyTorch + FX
+              PyTorch + Tensonflow + Torch.fx
             </div>
           </li>
         </ul>
@@ -58,21 +50,22 @@ export default function SkillsBar() {
         <ul>
           <li className="flex items-center gap-20 mb-2">
             <div className="flex gap-2 ">
-              <NextIcon className="skillsIcon" />
-              <SupabaseIcon className="skillsIcon" />
+              <MTKIcon className="skillsIcon" />
+              <QualcommIcon className="skillsIcon" />
             </div>
             <div className="text-sm font-semibold text-muted-foreground">
-              ONNX + MTK + Qualcomm
+              MeidaTeK + Qualcomm
             </div>
           </li>
 
-          <li className="flex items-center gap-20 mb-2">
+          <li className="flex items-center gap-10 mb-2">
             <div className="flex gap-2 ">
-              <NextIcon className="skillsIcon" />
-              <SupabaseIcon className="skillsIcon" />
+              <OpenVINOIcon className="skillsIcon" />
+              <NvidiaIcon className="skillsIcon" />
+              <OnnxIcon className="skillsIcon" />
             </div>
             <div className="text-sm font-semibold text-muted-foreground">
-              TensorRT + Openvino
+            OpenVINO + TensorRT + ONNX
             </div>
           </li>
 
