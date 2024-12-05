@@ -1,5 +1,5 @@
 import CppIcon from "@/public/icons/CplusIcon";
-import PythonIcon from "@/public/icons/PythonIcon";
+import PythonIcon from "@/public/icons/Pythonicon";
 import NvidiaIcon from "@/public/icons/NvidiaIcon";
 import TensorflowIcon from "@/public/icons/TensorflowIcon";
 import OnnxIcon from "@/public/icons/OnnxIcon";
