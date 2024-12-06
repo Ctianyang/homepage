@@ -16,171 +16,171 @@ export default function OpenVINOIcon(props) {
         <path
           fill="#2F88FF"
           stroke="#fff" /* 改为白色 */
-          stroke-linejoin="round"
-          stroke-width="4"
+          strokeLinejoin="round"
+          strokeWidth="4"
           d="M38 8H10C8.89543 8 8 8.89543 8 10V38C8 39.1046 8.89543 40 10 40H38C39.1046 40 40 39.1046 40 38V10C40 8.89543 39.1046 8 38 8Z"
         />
         <path
           fill="#43CCF8"
           stroke="#fff"
-          stroke-linejoin="round"
-          stroke-width="4"
+          strokeLinejoin="round"
+          strokeWidth="4"
           d="M30 18H18V30H30V18Z"
         />
         <path
           fill="#2F88FF"
-          fill-rule="evenodd"
+          fillRule="evenodd"
           d="M14.9092 2V8V2Z"
-          clip-rule="evenodd"
+          clipRule="evenodd"
         />
         <path
           stroke="#fff" /* 改为白色 */
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-width="4"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth="4"
           d="M14.9092 2V8"
         />
         <path
           fill="#2F88FF"
-          fill-rule="evenodd"
+          fillRule="evenodd"
           d="M14.9092 40V46V40Z"
-          clip-rule="evenodd"
+          clipRule="evenodd"
         />
         <path
           stroke="#fff" /* 改为白色 */
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-width="4"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth="4"
           d="M14.9092 40V46"
         />
         <path
           fill="#2F88FF"
-          fill-rule="evenodd"
+          fillRule="evenodd"
           d="M24 2V8V2Z"
-          clip-rule="evenodd"
+          clipRule="evenodd"
         />
         <path
           stroke="#fff" /* 改为白色 */
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-width="4"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth="4"
           d="M24 2V8"
         />
         <path
           fill="#2F88FF"
-          fill-rule="evenodd"
+          fillRule="evenodd"
           d="M24 40V46V40Z"
-          clip-rule="evenodd"
+          clipRule="evenodd"
         />
         <path
           stroke="#fff" /* 改为白色 */
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-width="4"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth="4"
           d="M24 40V46"
         />
         <path
           fill="#2F88FF"
-          fill-rule="evenodd"
+          fillRule="evenodd"
           d="M33.0908 2V8V2Z"
-          clip-rule="evenodd"
+          clipRule="evenodd"
         />
         <path
           stroke="#fff" /* 改为白色 */
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-width="4"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth="4"
           d="M33.0908 2V8"
         />
         <path
           fill="#2F88FF"
-          fill-rule="evenodd"
+          fillRule="evenodd"
           d="M33.0908 40V46V40Z"
-          clip-rule="evenodd"
+          clipRule="evenodd"
         />
         <path
           stroke="#fff" /* 改为白色 */
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-width="4"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth="4"
           d="M33.0908 40V46"
         />
         <path
           fill="#2F88FF"
-          fill-rule="evenodd"
+          fillRule="evenodd"
           d="M2 14.9092H8H2Z"
-          clip-rule="evenodd"
+          clipRule="evenodd"
         />
         <path
           stroke="#fff" /* 改为白色 */
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-width="4"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth="4"
           d="M2 14.9092H8"
         />
         <path
           fill="#2F88FF"
-          fill-rule="evenodd"
+          fillRule="evenodd"
           d="M40 14.9092H46H40Z"
-          clip-rule="evenodd"
+          clipRule="evenodd"
         />
         <path
           stroke="#fff" /* 改为白色 */
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-width="4"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth="4"
           d="M40 14.9092H46"
         />
         <path
           fill="#2F88FF"
-          fill-rule="evenodd"
+          fillRule="evenodd"
           d="M2 24H8H2Z"
-          clip-rule="evenodd"
+          clipRule="evenodd"
         />
         <path
           stroke="#fff" /* 改为白色 */
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-width="4"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth="4"
           d="M2 24H8"
         />
         <path
           fill="#2F88FF"
-          fill-rule="evenodd"
+          fillRule="evenodd"
           d="M40 24H46H40Z"
-          clip-rule="evenodd"
+          clipRule="evenodd"
         />
         <path
           stroke="#fff" /* 改为白色 */
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-width="4"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth="4"
           d="M40 24H46"
         />
         <path
           fill="#2F88FF"
-          fill-rule="evenodd"
+          fillRule="evenodd"
           d="M2 33.0908H8H2Z"
-          clip-rule="evenodd"
+          clipRule="evenodd"
         />
         <path
           stroke="#fff" /* 改为白色 */
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-width="4"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth="4"
           d="M2 33.0908H8"
         />
         <path
           fill="#2F88FF"
-          fill-rule="evenodd"
+          fillRule="evenodd"
           d="M40 33.0908H46H40Z"
-          clip-rule="evenodd"
+          clipRule="evenodd"
         />
         <path
           stroke="#fff" /* 改为白色 */
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-width="4"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth="4"
           d="M40 33.0908H46"
         />
       </g>
