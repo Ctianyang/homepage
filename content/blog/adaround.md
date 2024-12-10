@@ -23,10 +23,10 @@
 
 $$
 \tag{1-1}
-\begin{array}{c}
-E\left[ {L\left( {x,y,w + w} \right) - L\left( {x,y,w} \right)} \right] \approx E\left[ {{w^T} \cdot {\nabla _w}L\left( {x,y,w} \right) + \frac{1}{2}{w^T} \cdot \nabla _w^2L\left( {x,y,w} \right) \cdot w} \right]\\
- = {w^T} \cdot {g^{\left( w \right)}} + \frac{1}{2}{w^T} \cdot {H^{\left( w \right)}} \cdot w
-\end{array} 
+\begin{aligned}
+E\left[ {L\left( {x,y,w + w} \right) - L\left( {x,y,w} \right)} \right] &\approx E\left[ {{w^T} \cdot {\nabla _w}L\left( {x,y,w} \right) + \frac{1}{2}{w^T} \cdot \nabla _w^2L\left( {x,y,w} \right) \cdot w} \right]\\
+&= {w^T} \cdot {g^{\left( w \right)}} + \frac{1}{2}{w^T} \cdot {H^{\left( w \right)}} \cdot w
+\end{aligned}
 $$
 
 泰勒只展开到二阶，${g^{\left( w \right)}}$代表task loss对权重w的梯度的期望，${H^{\left( w \right)}}$代表task loss对权重w的Hessian矩阵。
@@ -89,10 +89,9 @@ $$
 
  $$
 \tag{2-2}
- \begin{array}{l}
-\mathop {\arg \min }\limits_{w} E\left[ {L\left( {x,y,w + \Delta w} \right) - L\left( {x,y,w} \right)} \right]\\
- = \mathop {\arg \min }\limits_{w} E\left[ {{{\Delta w}^{\left( l \right)}}^{^T} \cdot {H^{({w^{^{\left( l \right)}}})}} \cdot {{\Delta w}^{^{\left( l \right)}}}} \right]
-\end{array}
+\begin{aligned}
+\mathop {\arg \min }\limits_{w} E\left[ {L\left( {x,y,w + \Delta w} \right) - L\left( {x,y,w} \right)} \right]= \mathop {\arg \min }\limits_{w} E\left[ {{{\Delta w}^{\left( l \right)}}^{^T} \cdot {H^{({w^{^{\left( l \right)}}})}} \cdot {{\Delta w}^{^{\left( l \right)}}}} \right]
+\end{aligned}
  $$
 
 (2-2)与(1-2)的区别在于，(2-2)中假设对权重w的Hessian矩阵为块对角阵，即不同层之间的权重互不影响。
@@ -114,13 +113,13 @@ $$
 对于全连接层，计算第层中某两个权重的二阶导有：
 $$
 \tag{2-3}
-\begin{array}{c}
+\begin{aligned}
 \frac{{{\partial ^2}L}}{{\partial W_{i,j}^{\left( l \right)}\partial W_{m,o}^{\left( l \right)}}} 
 &= \frac{{{\partial ^2}}}{{\partial W_{m,o}^{\left( l \right)}}}\left[ {\frac{{\partial L}}{{\partial z_i^{\left( l \right)}}} \cdot \frac{{\partial z_i^{\left( l \right)}}}{{\partial W_{i,j}^{\left( l \right)}}}} \right]\\
 &= \frac{\partial }{{\partial W_{m,o}^{\left( l \right)}}}\left[ {\frac{{\partial L}}{{\partial z_i^{\left( l \right)}}} \cdot x_j^{\left( {l - 1} \right)}} \right]\\
 &= \frac{\partial }{{\partial z_m^{\left( l \right)}}}\left[ {\frac{{\partial L}}{{\partial z_i^{\left( l \right)}}}} \right] \cdot \frac{{\partial z_m^{\left( l \right)}}}{{\partial W_{m,o}^{\left( l \right)}}} \cdot x_j^{\left( {l - 1} \right)}\\
 &= \frac{{{\partial ^2}L}}{{\partial z_i^{\left( l \right)}\partial z_m^{\left( l \right)}}} \cdot x_j^{\left( {l - 1} \right)} \cdot x_o^{\left( {l - 1} \right)}
-\end{array}
+\end{aligned}
 $$
  
 
@@ -144,11 +143,11 @@ $$
 把式(2.5)代入(2.2)可得：
 $$
 \tag{2-6}
-\begin{array}{l}
-\mathop {\arg \min }\limits_{W_{k,:}^{\left( l \right)}} E\left[ {\nabla _{{z^{\left( l \right)}}}^2{L_{k,k}} \cdot \Delta W_{k,:}^{\left( l \right)}{x^{\left( {l - 1} \right)}}{x^{{{\left( {l - 1} \right)}^T}}}\Delta W_{k,:}^{{{\left( l \right)}^T}}} \right]\\
- = \mathop {\arg \min }\limits_{W_{k,:}^{\left( l \right)}} \Delta W_{k,:}^{\left( l \right)}E\left[ {{x^{\left( {l - 1} \right)}}{x^{{{\left( {l - 1} \right)}^T}}}} \right]\Delta W_{k,:}^{{{\left( l \right)}^T}}\\
- = \mathop {\arg \min }\limits_{W_{k,:}^{\left( l \right)}} E\left[ {{{\left( {\Delta W_{k,:}^{\left( l \right)}{x^{\left( {l - 1} \right)}}} \right)}^2}} \right]
-\end{array}
+\begin{aligned}
+\mathop {\arg \min }\limits_{W_{k,:}^{\left( l \right)}} E\left[ {\nabla _{{z^{\left( l \right)}}}^2{L_{k,k}} \cdot \Delta W_{k,:}^{\left( l \right)}{x^{\left( {l - 1} \right)}}{x^{{{\left( {l - 1} \right)}^T}}}\Delta W_{k,:}^{{{\left( l \right)}^T}}} \right] \\
+&= \mathop {\arg \min }\limits_{W_{k,:}^{\left( l \right)}} \Delta W_{k,:}^{\left( l \right)}E\left[ {{x^{\left( {l - 1} \right)}}{x^{{{\left( {l - 1} \right)}^T}}}} \right]\Delta W_{k,:}^{{{\left( l \right)}^T}}\\
+ &= \mathop {\arg \min }\limits_{W_{k,:}^{\left( l \right)}} E\left[ {{{\left( {\Delta W_{k,:}^{\left( l \right)}{x^{\left( {l - 1} \right)}}} \right)}^2}} \right]
+\end{aligned}
  $$
 
 式(2.6)的最终表达式就是local loss，而local loss其实在DFQ中的bias correction中已经提出过，优化目标就是每层输出的量化损失，但是在bias correction中的优化对象是量化参数，而local loss是优化的round函数。
