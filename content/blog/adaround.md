@@ -1,7 +1,7 @@
 ---
   title: 经典量化文章阅读——AdaRound
   summary: AdaRound技术分析
-  image: /images/blog/adaround/cover.png
+  image: /images/blog/adaround/adaround_cover.png
   author: Ctianyang
   publishedAt: '2024-12-5'
   tag: Quantization, AdaRound
