@@ -144,7 +144,7 @@ $$
 $$
 \tag{2-6}
 \begin{aligned}
-\mathop {\arg \min }\limits_{W_{k,:}^{\left( l \right)}} E\left[ {\nabla _{{z^{\left( l \right)}}}^2{L_{k,k}} \cdot \Delta W_{k,:}^{\left( l \right)}{x^{\left( {l - 1} \right)}}{x^{{{\left( {l - 1} \right)}^T}}}\Delta W_{k,:}^{{{\left( l \right)}^T}}} \right] \\
+&\mathop {\arg \min }\limits_{W_{k,:}^{\left( l \right)}} E\left[ {\nabla _{{z^{\left( l \right)}}}^2{L_{k,k}} \cdot \Delta W_{k,:}^{\left( l \right)}{x^{\left( {l - 1} \right)}}{x^{{{\left( {l - 1} \right)}^T}}}\Delta W_{k,:}^{{{\left( l \right)}^T}}} \right] \\
 &= \mathop {\arg \min }\limits_{W_{k,:}^{\left( l \right)}} \Delta W_{k,:}^{\left( l \right)}E\left[ {{x^{\left( {l - 1} \right)}}{x^{{{\left( {l - 1} \right)}^T}}}} \right]\Delta W_{k,:}^{{{\left( l \right)}^T}}\\
  &= \mathop {\arg \min }\limits_{W_{k,:}^{\left( l \right)}} E\left[ {{{\left( {\Delta W_{k,:}^{\left( l \right)}{x^{\left( {l - 1} \right)}}} \right)}^2}} \right]
 \end{aligned}
