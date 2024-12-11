@@ -1,7 +1,7 @@
 ---
   title: 经典量化文章阅读——BRECQ
   summary: BRECQ技术分析
-  image: /images/blog/brecq/cover.png
+  image: /images/blog/brecq/brecq_cover.png
   author: Ctianyang
   publishedAt: '2024-12-10'
   tag: Quantization, BRECQ
