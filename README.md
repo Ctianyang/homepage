@@ -1,4 +1,4 @@
-<h1 align="center">zephyrlin.me</h1>
+<h1 align="center">个人主页</h1>
 
 <p align="center"><a href="./public/docs/README_CN.md">简体中文</a></p>
 
