@@ -1,7 +1,7 @@
 ---
   title: nihao
   summary: AdaRound技术分析
-  image: /images/blog/adaround/adaround_cover.png
+  image: /images/blog/adaround/cover.png
   author: Ctianyang
   publishedAt: '2024-12-5'
   tag: Quantization, AdaRound

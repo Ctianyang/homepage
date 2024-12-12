@@ -1,12 +1,12 @@
 series:
   - title: "LLM Quantization"
     description: "这是LLM量化系列的介绍这是LLM量化系列的介绍这是LLM量化系列的介绍这是LLM量化系列的介绍这是LLM量化系列的介绍这是LLM量化系列的介绍这是LLM量化系列的介绍这是LLM量化系列的介绍这是LLM量化系列的介绍这是LLM量化系列的介绍"
-    image: "/images/blog/adaround/adaround_cover.png"
+    image: "/images/blog/adaround/cover.png"
     tags: [LLM, 量化]
 
   - title: "Computer Network"
     description: "这是计算机网络系列的介绍"
-    image: "/images/blog/adaround/adaround_cover.png"
+    image: "/images/blog/adaround/cover.png"
     tags: [tcp/ip, 路由]
 
   # - title: "Computer Organization"
@@ -21,5 +21,5 @@ series:
 
   - title: "Operating System"
     description: "这是操作系统系列的介绍"
-    image: "/images/blog/adaround/adaround_cover.png"
+    image: "/images/blog/adaround/cover.png"
     tags: [内存管理, Linux内核]
