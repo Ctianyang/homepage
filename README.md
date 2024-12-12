@@ -18,9 +18,6 @@
 - Styling: **Tailwind CSS** + **Shadcn UI**
 - Animation: **Framer Motion**
 - Database: **Supabase**
-- ORM: **Prisma**
-- CMS: **Sanity**
-- Authentication: **Clerk**
 - Deployment: **Vercel**
 
 ## 💡Get Started
