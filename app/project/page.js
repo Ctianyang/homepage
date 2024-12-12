@@ -1,5 +1,4 @@
 import Projects from "@/components/Projects";
-import { client } from "@/lib/sanity";
 
 import Description from "@/components/Description";
 import MotionDivWrapper from "@/components/MotionDivWrapper";

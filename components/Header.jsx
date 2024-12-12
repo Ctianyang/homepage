@@ -3,7 +3,6 @@
 import { usePathname } from "next/navigation";
 import Avatar from "./Avatar";
 import Navbar from "./Navbar";
-import SignInAndOut from "./SignIn";
 import GithubIcon from "@/public/icons/GithubIcon";
 import Link from "next/link";
 
