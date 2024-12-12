@@ -3,7 +3,6 @@
 import { usePathname } from "next/navigation";
 import Avatar from "./Avatar";
 import Navbar from "./Navbar";
-import SignInAndOut from "./SignIn";
 import GithubIcon from "@/public/icons/GithubIcon";
 import Link from "next/link";
 
@@ -15,7 +14,8 @@ export default function Header() {
     <header className="grid w-full grid-flow-col grid-cols-3 sm:grid-cols-4">
       <Avatar page={page} />
 
-      <Navbar page={page} />
+      {/* 传递完整路由参数，区分不同的子路由 */}
+      <Navbar page={pathname} />
 
       <div className="flex items-center justify-end gap-2">
         <Link

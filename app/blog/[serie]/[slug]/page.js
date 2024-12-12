@@ -4,9 +4,14 @@ import { ArrowLeft } from "lucide-react";
 import Image from "next/image";
 import { getBlogBySlug, getBlogs } from "@/lib/blog";
 
+/**
+ * 用于展示具体文章，将路由从/blog/[slug] -> /blog/[serie]/[slug]
+ * 虽然不知道slug是什么，但是没改，此处slug = title
+ */
+
 export default async function Blog({ params }) {
-  const { slug } = params;
-  const blog = await getBlogBySlug(slug);
+  const { serie, slug } = params;
+  const blog = await getBlogBySlug(serie, slug);
 
   if (!blog) {
     notFound();

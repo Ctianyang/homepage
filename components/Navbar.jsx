@@ -10,7 +10,8 @@ export const navigationItems = [
   },
   {
     name: "Blog",
-    href: "/blog",
+    href: "/serie",
+    // 点击导航中的Blog导航到/serie，实现首先展示系列列表
   },
   {
     name: "Project",
