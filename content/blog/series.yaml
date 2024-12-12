@@ -1,13 +1,13 @@
 series:
-  - title: "LLM Quantization"
-    description: "这是LLM量化系列的介绍这是LLM量化系列的介绍这是LLM量化系列的介绍这是LLM量化系列的介绍这是LLM量化系列的介绍这是LLM量化系列的介绍这是LLM量化系列的介绍这是LLM量化系列的介绍这是LLM量化系列的介绍这是LLM量化系列的介绍"
-    image: "/images/blog/adaround/cover.png"
-    tags: [LLM, 量化]
+  - title: "Normal Quantization"
+    description: "在这里对一些常见的量化算法进行分析介绍，通常是指CNN的量化。"
+    image: "/images/series/series_normal_quantization.png"
+    tags: [CNN, 量化]
 
-  - title: "Computer Network"
-    description: "这是计算机网络系列的介绍"
-    image: "/images/blog/adaround/cover.png"
-    tags: [tcp/ip, 路由]
+  - title: "LLM Quantization"
+    description: "在这里对大模型量化算法进行分析介绍，大模型通常会包含一些特殊问题。"
+    image: "/images/series/series_LLM Quantization.png"
+    tags: [LLM, 量化]
 
   # - title: "Computer Organization"
   #   description: "这是计算机组成原理系列的介绍"
@@ -19,7 +19,7 @@ series:
   #   image: "/images/blog/adaround/adaround_cover.png"
   #   tags: [力扣, 动态规划]
 
-  - title: "Operating System"
-    description: "这是操作系统系列的介绍"
-    image: "/images/blog/adaround/cover.png"
-    tags: [内存管理, Linux内核]
+  # - title: "Operating System"
+  #   description: "这是操作系统系列的介绍"
+  #   image: "/images/blog/adaround/cover.png"
+  #   tags: [内存管理, Linux内核]

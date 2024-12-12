@@ -26,7 +26,7 @@ export default function Series({ series }) {
 				{series.map((serie) => (
 					<div key={serie.title}>
 						<Link href={`/serie/${serie.title}`}>
-							<div className="relative flex flex-col items-start justify-center gap-6 p-5 border-dashed border-[0.8px] border-transparent rounded-2xl hover:border-muted-foreground hover:bg-muted ">
+							<div className="relative flex flex-col items-center justify-center gap-6 p-5 border-dashed border-[0.8px] border-transparent rounded-2xl hover:border-muted-foreground hover:bg-muted ">
 								<div className="relative flex items-center justify-center">
 									<Image
 										src={serie.image}
@@ -37,7 +37,7 @@ export default function Series({ series }) {
 									/>
 								</div>
 
-								<div>
+								<div className="text-center">
 									<h2 className="mb-2 font-semibold">{serie.title}</h2>
 									<ul>
 										{getSeriesTagListElements(serie.tags)}

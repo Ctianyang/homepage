@@ -24,7 +24,7 @@ export default async function Blog({ params }) {
     <section className="flex pr-8 mx-auto">
       <aside className="hidden relative pt-14 2xl:block">
         <Link
-          href="/blog"
+          href="/serie"
           className="sticky flex items-center gap-1 py-2 pl-4 pr-5 rounded-full top-10  text-foreground font-semibold bg-[#f2f2f21a] "
         >
           <ArrowLeft className="w-5 h-5" />
