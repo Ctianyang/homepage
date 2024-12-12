@@ -1,10 +1,10 @@
 series:
-  - title: "Normal Quantization"
+  - title: "Normal_Quantization"
     description: "在这里对一些常见的量化算法进行分析介绍，通常是指CNN的量化。"
     image: "/images/series/series_normal_quantization.png"
     tags: [CNN, 量化]
 
-  - title: "LLM Quantization"
+  - title: "LLM_Quantization"
     description: "在这里对大模型量化算法进行分析介绍，大模型通常会包含一些特殊问题。"
     image: "/images/series/series_LLM Quantization.png"
     tags: [LLM, 量化]
