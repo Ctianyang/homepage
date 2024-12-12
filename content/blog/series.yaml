@@ -9,15 +9,15 @@ series:
     image: "/images/blog/adaround/adaround_cover.png"
     tags: [tcp/ip, 路由]
 
-  - title: "Computer Organization"
-    description: "这是计算机组成原理系列的介绍"
-    image: "/images/blog/adaround/adaround_cover.png"
-    tags: [冯诺伊曼, GPU]
+  # - title: "Computer Organization"
+  #   description: "这是计算机组成原理系列的介绍"
+  #   image: "/images/blog/adaround/adaround_cover.png"
+  #   tags: [冯诺伊曼, GPU]
 
-  - title: "Data Structure and Algorithm"
-    description: "这是数据结构与算法系列的介绍"
-    image: "/images/blog/adaround/adaround_cover.png"
-    tags: [力扣, 动态规划]
+  # - title: "Data Structure and Algorithm"
+  #   description: "这是数据结构与算法系列的介绍"
+  #   image: "/images/blog/adaround/adaround_cover.png"
+  #   tags: [力扣, 动态规划]
 
   - title: "Operating System"
     description: "这是操作系统系列的介绍"
